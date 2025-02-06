@@ -52,7 +52,7 @@ export const Contact = () => {
             <br /> new era of <br /> fe<b>s</b>t t<b>o</b>gether
           </p>
 
-          <Button containerClass="mt-10 cursor-pointer"><a href="" >join now</a>
+          <Button containerClass="mt-10 cursor-pointer"><a href="https://chat.whatsapp.com/GX0MwTpZDWOIvlfhAAp8Ac" >join now</a>
             </Button>
         </div>
       </div>

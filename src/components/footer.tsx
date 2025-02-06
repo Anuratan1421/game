@@ -31,7 +31,7 @@ export const Footer = () => {
             Gandharva {new Date().getFullYear()}. 
           </a>
 
-          <b>|</b>
+          {/* <b>|</b> */}
 
           {/* <a
             href="#"

@@ -156,13 +156,40 @@ Not only consisting of spectacular cultural events, but also thought provoking t
             </div>
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_2">
+          {/* <BentoTilt className="bento-tilt_2">
             <video
               src="/videos/feature-5.mp4"
               loop
               muted
               autoPlay
               className="size-full object-cover object-center"
+            />
+
+
+              <BentoCard
+              src="/videos/feature-5.mp4"
+              title={
+                <>
+                  get
+                </>
+              }
+               description="An anime and gaming-inspired NFT"
+            />
+            */}
+            
+          {/* </BentoTilt> */}
+
+
+
+          <BentoTilt className="bento-tilt_2 row-span-1 ">
+            <BentoCard
+              src="/videos/feature-5.mp4"
+              title={
+                <>
+                  get r<b>e</b>ady
+                </>
+              }
+              // description="An anime and gaming-inspired NFT"
             />
           </BentoTilt>
         </div>

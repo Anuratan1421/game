@@ -50,7 +50,7 @@ export const Story = () => {
     <section id="story" className="min-h-dvh w-screen bg-black text-blue-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          the multiversal 
+          The Riddle
         </p>
 
         <div className="relative size-full">
@@ -81,14 +81,29 @@ export const Story = () => {
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-            Music, cheers, and lights so bright,
+            {/* Music, cheers, and lights so bright,
 A stage where talents take their flight.
 Once a year, we laugh and play,
-What am I? Come, name my day!
+What am I? Come, name my day! */}I'm built on whispers, and lore,
+
+A shifting place, forevermore.
+
+Those who seek may never leave,
+
+For I am shaped by what you believe.
+
+What am I?
+
+
+
+
+
+
+
             </p>
 
             <Button id="realm-button" containerClass="mt-5">
-              Find out and tag us on instagram
+              <a href="https://www.instagram.com/gandharva_viit?utm_source=qr&igsh=dm45MWIzNGMwcGNr">Find out and tag us on instagram</a>
             </Button>
           </div>
         </div>
