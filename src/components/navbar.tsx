@@ -13,7 +13,7 @@ export const Navbar = () => {
   const navContainerRef = useRef<HTMLDivElement>(null);
   const audioElementRef = useRef<HTMLAudioElement>(null);
 
-  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
+  const [isAudioPlaying, setIsAudioPlaying] = useState(true);
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isNavVisible, setIsNavVisible] = useState(false);
@@ -61,17 +61,18 @@ export const Navbar = () => {
       <div className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7">
-            <a href="#hero" className="transition hover:opacity-75">
-              <img src="/img/logo.png" alt="Logo" className="w-10" />
-            </a>
+          <a href="#hero" className="transition hover:opacity-75">
+  <img src="/img/logo.png" alt="Logo" className="w-10 h-10 rounded-full" />
+</a>
 
-            <Button
+
+            {/* <Button
               id="product-button"
               rightIcon={TiLocationArrow}
               containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
             >
               Products
-            </Button>
+            </Button> */}
           </div>
 
           <div className="flex h-full items-center">
@@ -112,7 +113,7 @@ export const Navbar = () => {
                   })}
               </button>
 
-              <a
+              {/* <a
                 href={LINKS.sourceCode}
                 target="_blank"
                 rel="noreferrer noopener"
@@ -120,7 +121,7 @@ export const Navbar = () => {
                 title="Source Code"
               >
                 <FaGithub className="size-5 text-white" />
-              </a>
+              </a> */}
             </div>
           </div>
         </nav>

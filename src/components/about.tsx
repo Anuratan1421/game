@@ -30,25 +30,26 @@ export const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
+          Welcome to VIIT
         </p>
 
         <AnimatedTitle containerClass="mt-5 !text-black text-center">
           {
-            "Disc<b>o</b>ver the world&apos;s l<b>a</b>rgest <br /> shared adventure"
+            "Disc<b>o</b>ver the magic and d<b>i</b>ve  <br /> into adventure"
           }
         </AnimatedTitle>
 
         <div className="about-subtext">
-          <p>The Game of Games begins-your life, now an epic MMORPG</p>
-          <p>Zentry unites every player from countless games and platforms</p>
+          <p> Here Celebration meets everything</p>
+          <p> passion, energy,
+             and unforgettable moments that bring the life to life</p>
         </div>
       </div>
 
       <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
           <img
-            src="/img/about.webp"
+            src="/img/GANDHARVA (2).png"
             alt="Background"
             className="absolute left-0 top-0 size-full object-cover"
           />

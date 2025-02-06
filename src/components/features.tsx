@@ -80,25 +80,25 @@ export const Features = () => {
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
           <p className="font-circular-web text-lg text-blue-50">
-            Into the Metagame Layer
+            About Gandharva
           </p>
 
           <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-            Immerse yourself in a rich and ever-expanding universe where a
-            vibrant array of products converge into an interconnected overlay
-            experience on your world.
+          Gandharva is a National level Techno-Cultural Fest organised by the students of Vishwakarma Institute of Information Technology (VIIT), Pune Starting from 2008, GANDHARVA has been a stalwart throughout the years to the students of VIIT.
+
+Not only consisting of spectacular cultural events, but also thought provoking technical ones. An avenue for the students to express themselves to their highest level. Through fashion shows, singing and dancing events, to crowds of upto 7000+ people.
           </p>
         </div>
 
-        <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+        <BentoTilt className="border-hsla relative mb-7 h-110000000000 w-full overflow-hidden rounded-md md:h-[65vh]">
           <BentoCard
-            src="/videos/feature-1.mp4"
+            src="/videos/recap3.mp4"
             title={
               <>
-                radia<b>n</b>t
+                re<b>c</b>ap
               </>
             }
-            description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+            description="Music , Dance and love ."
           />
         </BentoTilt>
 
@@ -111,10 +111,10 @@ export const Features = () => {
               src="/videos/feature-2.mp4"
               title={
                 <>
-                  zig<b>m</b>a
+                  comm<b>i</b>tee 2025
                 </>
               }
-              description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+              // description="An anime and gaming-inspired NFT"
             />
           </BentoTilt>
 
@@ -126,7 +126,7 @@ export const Features = () => {
                   n<b>e</b>xus
                 </>
               }
-              description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            //  description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
             />
           </BentoTilt>
 
@@ -135,10 +135,13 @@ export const Features = () => {
               src="/videos/feature-4.mp4"
               title={
                 <>
-                  az<b>u</b>l
+                  he<b>l</b>p
                 </>
               }
-              description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+              description="Contact 7517848611 
+               "
+                
+               
             />
           </BentoTilt>
 
@@ -146,6 +149,7 @@ export const Features = () => {
             <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
               <h1 className="bento-title special-font max-w-64 text-black">
                 M<b>o</b>re co<b>m</b>ing so<b>o</b>n!
+                
               </h1>
 
               <TiLocationArrow className="m-5 scale-[5] self-end" />

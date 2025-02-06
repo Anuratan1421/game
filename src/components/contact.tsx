@@ -45,14 +45,15 @@ export const Contact = () => {
         </div>
 
         <div className="flex flex-col items-center text-center">
-          <p className="font-general text-[10px] uppercase">Join Zentry</p>
+          <p className="font-general text-[10px] uppercase">Join Decoration squad</p>
 
           <p className="special-font mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem]">
             Let&apos;s b<b>u</b>ild the
-            <br /> new era of <br /> g<b>a</b>ming t<b>o</b>gether
+            <br /> new era of <br /> fe<b>s</b>t t<b>o</b>gether
           </p>
 
-          <Button containerClass="mt-10 cursor-pointer">Contact Us</Button>
+          <Button containerClass="mt-10 cursor-pointer"><a href="" >join now</a>
+            </Button>
         </div>
       </div>
     </section>
