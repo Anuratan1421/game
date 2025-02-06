@@ -1,4 +1,4 @@
-import { SOCIAL_LINKS } from "@/constants";
+//import { SOCIAL_LINKS } from "@/constants";
 
 export const Footer = () => {
   return (
