@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 //import { TiLocationArrow } from "react-icons/ti";
 import { useWindowScroll } from "react-use";
 
-//import { LINKS, NAV_ITEMS } from "@/constants";
+import {  NAV_ITEMS } from "@/constants";
 import { cn } from "@/lib/utils";
 
 //import { Button } from "./button";
