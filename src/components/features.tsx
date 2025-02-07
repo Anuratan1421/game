@@ -139,13 +139,11 @@ Not only consisting of spectacular cultural events, but also thought provoking t
                 </>
               }
               
-              description="For Inquiry Contact 7517848611"
+              description="Contact 7517848611"
 
-              
-            
-      
             />
-             
+         
+          
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_2">
