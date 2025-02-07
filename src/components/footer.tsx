@@ -1,4 +1,4 @@
-//import { SOCIAL_LINKS } from "@/constants";
+import { SOCIAL_LINKS } from "@/constants";
 
 export const Footer = () => {
   return (
@@ -9,7 +9,7 @@ export const Footer = () => {
           
         </p>
 
-        {/* <div className="flex justify-center gap-4 md:justify-start">
+        <div className="flex justify-center gap-4 md:justify-start">
           {SOCIAL_LINKS.map(({ href, icon: Icon }) => (
             <a
               key={href}
@@ -21,7 +21,7 @@ export const Footer = () => {
               <Icon />
             </a>
           ))}
-        </div> */}
+        </div>
 
         <div className="flex items-center gap-1.5">
           <a

@@ -66,7 +66,7 @@ const BentoCard = ({ src, title, description }: BentoCardProps) => {
         <div>
           <h1 className="bento-title special-font">{title}</h1>
           {description && (
-            <p className="tetx-xl mt-3 max-w-64 md:text-base">{description}</p>
+            <p className="tetx-xl mt-3 max-w-64 md:text-base text-wrap">{description}</p>
           )}
         </div>
       </div>
@@ -108,10 +108,10 @@ Not only consisting of spectacular cultural events, but also thought provoking t
         >
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
             <BentoCard
-              src="/videos/feature-2.mp4"
+              src="/videos/flash.mp4"
               title={
                 <>
-                  comm<b>i</b>tee 2025
+                  {/* comm<b>i</b>tee 2025 */}
                 </>
               }
               // description="An anime and gaming-inspired NFT"
@@ -120,10 +120,10 @@ Not only consisting of spectacular cultural events, but also thought provoking t
 
           <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
             <BentoCard
-              src="/videos/feature-3.mp4"
+              src="/videos/cr4.mp4"
               title={
                 <>
-                  n<b>e</b>xus
+                
                 </>
               }
             //  description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
@@ -138,11 +138,14 @@ Not only consisting of spectacular cultural events, but also thought provoking t
                   he<b>l</b>p
                 </>
               }
-              description="Contact 7517848611 
-               "
-                
-               
+              
+              description="For Inquiry Contact 7517848611"
+
+              
+            
+      
             />
+             
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_2">
@@ -186,7 +189,7 @@ Not only consisting of spectacular cultural events, but also thought provoking t
               src="/videos/feature-5.mp4"
               title={
                 <>
-                  get r<b>e</b>ady
+                  lets <b>g</b>o
                 </>
               }
               // description="An anime and gaming-inspired NFT"

@@ -1,4 +1,4 @@
-import { FaDiscord, FaTwitch, FaTwitter, FaYoutube } from "react-icons/fa";
+import {  FaTwitter, FaYoutube ,FaInstagram } from "react-icons/fa";
 
 export const NAV_ITEMS = [
   { label: "TRAILER", href: "#hero" },
@@ -14,19 +14,19 @@ export const LINKS = {
 
 export const SOCIAL_LINKS = [
   {
-    href: "https://discord.com",
-    icon: FaDiscord,
+    href: "https://www.instagram.com/gandharva_viit?utm_source=qr&igsh=dm45MWIzNGMwcGNr",
+    icon: FaInstagram,
   },
   {
-    href: "https://twitter.com",
+    href: "mobile.twitter.com/GandharvaVIIT",
     icon: FaTwitter,
   },
   {
     href: "https://youtube.com",
     icon: FaYoutube,
   },
-  {
-    href: "https://twitch.com",
-    icon: FaTwitch,
-  },
+  // {
+  //   href: "https://twitch.com",
+  //   icon: FaTwitch,
+  // },
 ] as const;
