@@ -90,12 +90,12 @@ export const Navbar = () => {
                 className="ml-10 flex items-center space-x-1 p-2 transition hover:opacity-75"
                 title="Play Audio"
               >
-                <audio
+                {/* <audio
                   ref={audioElementRef}
                   src="/audio/loop.mp3"
                   className="hidden"
                   loop
-                />
+                /> */}
 
                 {Array(4)
                   .fill("")

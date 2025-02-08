@@ -118,7 +118,7 @@ Not only consisting of spectacular cultural events, but also thought provoking t
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+          <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
             <BentoCard
               src="/videos/pl.mp4"
               title={
@@ -146,7 +146,7 @@ Not only consisting of spectacular cultural events, but also thought provoking t
           
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_2">
+          {/* <BentoTilt className="bento-tilt_2">
             <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
               <h1 className="bento-title special-font max-w-64 text-black">
                 M<b>o</b>re co<b>m</b>ing so<b>o</b>n!
@@ -155,7 +155,7 @@ Not only consisting of spectacular cultural events, but also thought provoking t
 
               <TiLocationArrow className="m-5 scale-[5] self-end" />
             </div>
-          </BentoTilt>
+          </BentoTilt> */}
 
           {/* <BentoTilt className="bento-tilt_2">
             <video

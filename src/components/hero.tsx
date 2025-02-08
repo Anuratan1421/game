@@ -47,6 +47,7 @@ export const Hero = () => {
           height: "100%",
           duration: 1,
           ease: "power1.inOut",
+          
           onStart: () => {
             void nextVideoRef.current?.play();
           },
