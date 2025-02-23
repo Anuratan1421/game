@@ -152,7 +152,7 @@ Not only consisting of spectacular cultural events, but also thought provoking t
               src="/videos/feature-5.mp4"
               title={
                 <>
-                  lets <b>g</b>o
+                  get r<b>e</b>ady
                 </>
               }
               // description="An anime and gaming-inspired NFT"
