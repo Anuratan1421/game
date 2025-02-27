@@ -62,7 +62,7 @@ export const Navbar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7">
           <a href="#hero" className="transition hover:opacity-75">
-  <img src="/img/Gandharva (6).png" alt="Logo" className="w-10 h-10 rounded-full" />
+  <img src="/img/d.jpg" alt="Logo" className="w-10 h-10 rounded-full" />
 </a>
 
 
